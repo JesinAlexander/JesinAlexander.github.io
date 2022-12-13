@@ -1,0 +1,86 @@
+.row
+{
+    
+	margin-left:30px;
+	padding-top:5px;
+	display: flex;
+	flex-direction: row; 
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+@media only screen and (max-width: 600px){
+	
+.navtext1 {
+    margin-left: 72px;
+	
+}
+.navtext {
+    padding-left: 0px;
+	
+}
+.logoimage {
+    height: 156px;
+	
+}
+
+}
+@media only screen and (min-width: 601px) and (max-width: 643px) {
+	.navtext1 {
+    margin-left: 75px;
+	
+}
+.navtext {
+    padding-left: 0px;
+	
+}
+.logoimage {
+    height: 156px;
+	
+}
+	
+}
+@media only screen and (min-width: 644px) and (max-width: 767px) {
+	.navtext1 {
+    margin-left: 97px;
+	
+}
+.navtext {
+    padding-left: 0px;
+	
+}
+.logoimage {
+    height: 156px;
+	
+}
+	
+}
+@media only screen and (min-width: 768px) and (max-width: 1060px) {
+	.navtext1 {
+    margin-left: 125px;
+	
+}
+.navtext {
+    padding-left: 0px;
+	
+}
+.logoimage {
+    height: 156px;
+	
+}
+	
+}
+@media only screen and (min-width: 1061px) and (max-width: 1062px) {
+	
+.navtext1 {
+    margin-left: 122px;
+}
+
+}
+
+@media only screen and (min-width: 1063px) and (max-width: 1200px) {
+	
+.navtext1 {
+    margin-left: 122px;
+}
+
+}

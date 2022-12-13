@@ -1,0 +1,123 @@
+#genpara{
+font-family: Arial, Helvetica, sans-serif;
+line-height:1.3em;
+color: #5E6084;
+text-align:justify;
+width:80%;
+margin-left:25px;
+}
+
+#paratitle
+{
+font-family: Arial, Helvetica, sans-serif;
+line-height:1.3em;
+text-align:justify;
+width:60%;
+margin-left:25px;
+font-style: italic;
+ color: #790938;
+}
+
+.paravideo
+{
+font-family: Arial, Helvetica, sans-serif;
+line-height:1.3em;
+text-align:justify;
+width:70%;
+margin-left:25px;
+font-style: italic;
+ color: #790938;
+}
+
+#boldtext
+{
+color: #790938;
+}
+.imageinfo
+{
+	margin:10px;
+	width:350px;
+	height:250px;
+	border-radius:15px;
+	
+}
+.flexid{
+display: grid;
+  grid-template-columns: auto auto auto;
+  
+  padding: 10px;
+}
+
+.gridrow{
+ 
+}
+.gridcolumn {
+  /*display: grid;*/
+  /*grid-template-rows: auto auto auto;*/
+  margin-top:29px;
+  
+  padding: 10px;
+}
+@media only screen and (max-width: 600px) {
+	.logoimage {
+    height: 184px;
+}
+	.navtext1 {
+    margin-left: 95px;
+}
+	.navtext {
+    padding-left: 0px;
+}
+iframe
+{
+	width:70%;
+	height=250;
+}
+.imageinfo
+{
+	width:80%;
+}
+}
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+		.logoimage {
+    height: 156px;
+}
+	.navtext1 {
+    margin-left: 95px;
+}
+	.navtext {
+    padding-left: 0px;
+}
+iframe
+{
+	width:91%;
+	height=250;
+}
+.imageinfo
+{
+	width:80%;
+}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1060px){
+			.logoimage {
+    height: 156px;
+}
+	.navtext1 {
+    margin-left: 160px;
+}
+	.navtext {
+    padding-left: 0px;
+}
+iframe
+{
+	width:91%;
+	height=250;
+}
+.imageinfo
+{
+	width:80%;
+}
+}
+
+}

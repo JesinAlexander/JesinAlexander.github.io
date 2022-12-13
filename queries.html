@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Queries</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="CSS/masterpage.css">
+<link rel="stylesheet" href="CSS/queries.css">
+<style>
+main{
+background-color: #f6edf1;
+}
+
+</style>
+<script>
+function myFunction() {
+  document.getElementById("freeform").disabled = true;
+}
+function myreplyFunction() {
+  document.getElementById("replytext").disabled = true;
+}
+
+function EnableFunction() {
+  document.getElementById("freeform").disabled = false;
+}
+function EnablereplyFunction() {
+  document.getElementById("replytext").disabled = false;
+}
+function textFunction() {
+  var x = document.getElementById("formreply");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}	
+
+
+</script>
+</head>
+<body>
+<div class="bodycontainer">
+
+<header class="header">
+
+	<img src="Images/baby.png" alt="baby" class="logoimage"/>
+<a href="index.html" style="text-decoration:none"><h1 class="logotext">No-Cry Baby&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1></a>
+
+</header>
+<nav>
+<ul>
+  <li><a href="index.html" class="navtext navtext1">Home</a></li>
+  <li><a href="information.html"><span class="navtext">General Informations</span></a></li>
+  <li><a href="#"><span class="navtext">FAQs</span></a>
+  <ul> 
+      <li><a href="faqs.html" class="navultext">Frequently Asked Questions</a></li> 
+      <li><a href="queries.html" class="navultext">Post your Queries</a></li> 
+    </ul> 
+	</li>
+  <li><a href="blogs.html"><span class="navtext">Blogs</span></a></li>
+</ul>
+</nav>
+<main>
+<div class="row">
+<div>
+<h1 style="color:#790938;position:relative">Post Your Queries and Comments</h1>
+<label for="freeform">Kindly post your queries and comments here</label>
+</br></br>
+<div>
+<textarea id="freeform" name="freeform" rows="4" cols="50">
+Post Your Queries...
+</textarea>
+<button onclick="myFunction()">Post</button>
+<button onclick="EnableFunction()">Edit</button>
+</div>
+<button onclick="textFunction()">Reply</button>
+</br></br>
+<div id="formreply" style="display:none">
+<textarea id="replytext" name="formreply" rows="3" cols="30" style="margin-left:20px">
+Reply here...
+</textarea>
+<button onclick="myreplyFunction()">Post</button>
+<button onclick="EnablereplyFunction()">Edit</button>
+</div>
+</div>
+<div><img src="Images/bb5.png" width="250" height="355" style="float:right;margin:10px" alt="Baby"></div>
+
+</div>
+</main>
+<footer id="footer">
+
+<small class="copyright"><i>Copyright &copy; 2022 Jesin Alexander</i></small>
+<div class="divfooter">
+<a href="aboutus.html" style="text-decoration:none"><h4 class="h4footer">About Us</h4></a>
+<a href="contactus.html" style="text-decoration:none"><h4 class="h4footer">Contact Us</h4></a>
+</div>
+
+</footer>
+</div> 
+</body>
+</html>

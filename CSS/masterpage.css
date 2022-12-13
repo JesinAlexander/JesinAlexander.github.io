@@ -1,0 +1,116 @@
+*{ box-sizing: border-box; }
+.bodycontainer
+{
+	width:100%;
+}
+.logotext
+{
+	font-family:"Comic Sans MS";
+	color:maroon;
+	text-align:center;
+}
+.header{
+	background-image:linear-gradient(to right, red , yellow);
+	height:100px;
+	width:100%;
+	display: flex;
+	flex-direction: row; 
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+nav
+{
+	display: flex;
+	flex-direction: row; 
+    flex-wrap: wrap;
+	width:100%;
+	background: radial-gradient(circle at 10% 20%, rgb(252, 150, 120) 0%, rgb(247, 108, 127) 100.4%);
+	
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;	
+	display: flex;
+ 
+}
+
+
+nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 5.5px 8px;
+}
+
+nav li a:hover {
+background-color:rgb(238 76 98)
+}
+
+nav li:hover ul { display: block; }
+
+nav li { padding: 0.5em;
+      display: inline-block;
+}
+nav a { text-decoration: none; 
+       display: block;
+}
+nav ul ul { position: absolute; background-color:rgb(240 120 115); 
+            padding: 0; text-align: left; display: none; 
+}
+nav ul ul li { border: 1px solid #00005D; 
+               display: block; 
+}
+
+
+.navtext
+{
+	font-size: 20px;
+    font-family: cursive;
+    padding-left: 80px;
+}
+
+.navtext1{
+		margin-left: 250px;
+}
+
+.navultext
+{
+	font-size: 14px;
+    font-family: cursive;
+}
+.logoimage
+{
+	width:12%;
+	height:156px;
+	
+}
+
+#footernav{
+font-family:Comic Sans MS;
+}
+
+#footer{
+
+	background-image:linear-gradient(to right, red , yellow);
+	height:130px;
+	text-align:center;
+	margin-top
+}
+
+.h4footer
+{
+	color:maroon;font-family:Comic Sans MS;
+}
+
+.copyright
+{
+	color:maroon;font-family:Comic Sans MS;text-align:center;
+}
+
+.divfooter
+{
+	float:right;margin-right:10px;
+}

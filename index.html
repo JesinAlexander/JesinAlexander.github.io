@@ -1,50 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Lighthouse Island Bistro</title>
-<meta charset="utf-8">
+<title>Home</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="bistro.css" rel="stylesheet">
+<link rel="stylesheet" href="CSS/masterpage.css">
+<link rel="stylesheet" href="CSS/index.css">
+<style>
 
+
+.h4text
+{
+	font-family: Arial, Helvetica, sans-serif;line-height:2em;color: #5E6084;
+}
+
+
+</style>
 </head>
 <body>
-<div id="wrapper">  
- <nav> 
-<ul> 
-  <li><a href="index.html">Home</a></li> 
-  <li><a href="coffee.html">Coffee</a></li> 
-  <li><a href="cuisine.html">Cuisine</a> 
-    <ul> 
-      <li><a href="breakfast.html">Breakfast</a></li> 
-      <li><a href="lunch.html">Lunch</a></li> 
-      <li><a href="dinner.html">Dinner</a></li> 
-    </ul> 
-  </li> 
-  <li><a href="directions.html">Directions</a></li> 
-  <li><a href="contact.html">Contact</a></li> 
-</ul> 
-</nav>
 
-  <header>
-      <h1>Lighthouse Island Bistro</h1>
-   <span>the best coffee on the coast</span>
-  </header>  
-   <main> 
-   	<h2>Locally Roasted Free-Trade Coffee</h2>
-    <p>Indulge in the aroma of freshly ground roast coffee. Specialty drinks are available hot or cold.</p>
-    <h2>Specialty Pastries</h2>
-    <p>Enjoy a selection of our fresh-baked, organic pastries, including 
-  fresh-fruit muffins, scones, croissants, and cinnamon rolls.</p>
-  	<h2>Lunch and Light Dinners</h2>
-    <p>Savor delicious wraps and sandwiches on hearty, whole-grain breads with locally-grown salad, fruit, and vegetables. </p>
-    <h2>Panoramic View</h2>
-	<p>Take in some scenery!</p>
-	<p>The top of our lighthouse offers a panoramic view of the countryside. Challenge your friends to climb our 100-stair tower.</p>
-   </main> 
-   <footer>Copyright &copy; 2020
-   </footer>
-  </div> 
+<div class="bodycontainer">
+<header class="header">
+
+<img src="Images/baby.png" alt="baby" class="logoimage"/>
+<a href="index.html" style="text-decoration:none"><h1 class="logotext">No-Cry Baby&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1></a>
+
+
+</header>
+<nav>
+<ul>
+  <li><a href="index.html" class="navtext navtext1">Home</a></li>
+  <li><a href="information.html"><span class="navtext">General Informations</span></a></li>
+  <li><a href="#"><span class="navtext">FAQs</span></a>
+  <ul> 
+      <li><a href="faqs.html" class="navultext">Frequently Asked Questions</a></li> 
+      <li><a href="queries.html" class="navultext">Post your Queries</a></li> 
+    </ul> 
+	</li>
+  <li><a href="blogs.html"><span class="navtext">Blogs</span></a></li>
+</ul>
+</nav>
+<main id="gridmain">
+
+<div style="width:100%">
+<a href="blog1.html">
+<img src="Images/bb2.png" alt="baby" id="gridimage"/></a>
+</div>
+<div id="gridtext">
+<h3 style="font-family: Arial, Helvetica, sans-serif;line-height:2em;width:75%;COLOR:#790938">MUSIC AND TODDLERS</h3>
+<h4 class="h4text">Toddlers enjoy moving and dancing to music. The secret to toddler music is song repetition, which 
+help them to understand word and increase their memorising power.Music captivates the attention of young children. Babies are able to distinguish subtleties and variations in pitch and rhythm in songs in 
+other languages that even their parents don't notice because of this curiosity...<a href="blog1.html" class="h4text">Read More</a></h4>
+</div>
+</div>
+</main>
+</div>
+
+<footer id="footer">
+
+<small class="copyright"><i>Copyright &copy; 2022 Jesin Alexander</i></small>
+<div class="divfooter">
+<a href="aboutus.html" style="text-decoration:none"><h4 class="h4footer">About Us</h4></a>
+<a href="contactus.html" style="text-decoration:none"><h4 class="h4footer">Contact Us</h4></a>
+</div>
+
+</footer>
+</div> 
 </body>
 </html>
-
-
